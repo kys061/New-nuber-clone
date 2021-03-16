@@ -4,6 +4,7 @@
   "description": "Server for the (N)Uber Clone Course on Nomad Academy. GraphQL, Typescript, NodeJS",
   "main": "index.js",
   "scripts": {
+    "dev": "cd src && nodemon --exec ts-node index.ts -e ts,graphql",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yskang",
